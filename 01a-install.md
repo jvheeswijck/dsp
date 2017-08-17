@@ -48,14 +48,16 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Python 3 as it is the latest version of python and one that will have continued support.
 
 ### Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
+You may type in a terminal the following command:
+```
+python --version
+```
  
 
 
