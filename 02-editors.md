@@ -66,8 +66,9 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 ### Q1:  Create Files with Terminal Editors
 
-1.  Create a file called `nutmeg.py`, using **nano**, add a couple of lines of text, save and exit.  
-Some sample lines:  
+1.  Create a file called `nutmeg.py`, using **nano**, add a couple of lines of text, save and exit. 
+
+Some sample lines: 
 ```
 print("This file was created using the nano editor")
 print("This file was created by Reshama")
@@ -81,7 +82,7 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I will most likely use nano for small edits, but for more complex programming and edits, I'll use emacs. Emacs has a nice external GUI (while still being a terminal editor) that is straight-forward and easy to understand.
 
 --
 
@@ -89,6 +90,17 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I plan to use Visual Studio Code for simple programs and scripts as it is relatively light-weight, quick to start, supports multiple languages, and has a large range of extensions. For python specific programs, I'll likely use PyCharm as it is more feature rich and was designed for Python development specifically.
 
- 
+I've added an extension so VSCode uses PyCharm shortcut bindings.
+
+Some useful bindings include:
+`ctrl+x` Cut command. If nothing it selected, cuts the entire line.
+`ctrl+d` Duplicates the current line
+`ctrl+shift+space` Smart code completion
+`shift-tab` Un-indent
+`ctrl+alt+i` Auto-indent line(s)
+`shift+enter` Start new line
+`alt+up/down` Navigate to previous/next method
+
+With customization, in VSCode I've mainly just added extensions such as shortcut binding, Python Linting and debugging, and Jupyter Notebook support. With PyCharm, I haven't added any customizations.
