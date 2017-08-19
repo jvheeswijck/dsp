@@ -18,6 +18,7 @@ Here's a list of items with which you should be familiar:
 * copying a file from one directory to another
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
+
 `pwd` Print working directory  
 `mkdir [directory]` Create a directory  
 `rmdirv[directory]` Remove a directory  
@@ -32,6 +33,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 `clear` Clears the console.  
 `alias [alias]='command'` Sets an alias for a command  
 `echo [Text to print]` Prints the text to standard output  
+
 ---
 
 ### Q2.  List Files in Unix   
