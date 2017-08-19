@@ -95,12 +95,12 @@ I plan to use Visual Studio Code for simple programs and scripts as it is relati
 I've added an extension so VSCode uses PyCharm shortcut bindings.
 
 Some useful bindings include:
-`ctrl+x` Cut command. If nothing it selected, cuts the entire line.
-`ctrl+d` Duplicates the current line
-`ctrl+shift+space` Smart code completion
-`shift-tab` Un-indent
-`ctrl+alt+i` Auto-indent line(s)
-`shift+enter` Start new line
-`alt+up/down` Navigate to previous/next method
+`ctrl+x` Cut command. If nothing it selected, cuts the entire line.  
+`ctrl+d` Duplicates the current line  
+`ctrl+shift+space` Smart code completion  
+`shift-tab` Un-indent  
+`ctrl+alt+i` Auto-indent line(s)  
+`shift+enter` Start new line  
+`alt+up/down` Navigate to previous/next method  
 
 With customization, in VSCode I've mainly just added extensions such as shortcut binding, Python Linting and debugging, and Jupyter Notebook support. With PyCharm, I haven't added any customizations.
