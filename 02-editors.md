@@ -94,7 +94,7 @@ I plan to use Visual Studio Code for simple programs and scripts as it is relati
 
 I've added an extension so VSCode uses PyCharm shortcut bindings.
 
-Some useful bindings include:
+Some useful bindings include:  
 `ctrl+x` Cut command. If nothing it selected, cuts the entire line.  
 `ctrl+d` Duplicates the current line  
 `ctrl+shift+space` Smart code completion  
