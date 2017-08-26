@@ -108,7 +108,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> There are 937 days between 01-02-2013 and 07-28-2015
+> There are 937 days between 01-02-2013 and 07-28-2015
 
 b.  
 ```
@@ -116,7 +116,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> There are 513 days between 12312013 and 05282015
+> There are 513 days between 12312013 and 05282015
 
 c.  
 ```
@@ -124,7 +124,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> There are 7850 days between 15-Jan-1994 and 14-Jul-2015
+> There are 7850 days between 15-Jan-1994 and 14-Jul-2015
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
@@ -132,17 +132,16 @@ Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
 ### Q6. Strings
 Edit the 7 functions in [q6_strings.py](python/q6_strings.py)  
-*Completed*
+
 ---
 
 ### Q7. Lists
-Edit the 5 functions in [q7_lists.py](python/q7_lists.py)  
-*Completed*
+Edit the 5 functions in [q7_lists.py](python/q7_lists.py)
+  
 ---
 
 ### Q8. Parsing
 Write a script as indicated (using the football data) in [q8_parsing.py](python/q8_parsing.py)  
-*Completed*
 
 
 
