@@ -76,7 +76,7 @@ Implementing the above example using `filer` and `map`, we have:
 ```python
 squares = list(filter(lambda x: x % 2 == 1, map(lambda x: x**2, range(1,11))))
 ```
-As you can see, list comprehensions is a powerful, and simple way to combine many operations into a single line of code.
+As you can see, list comprehensions are a powerful, and simple way to combine many operations into a single line of code.
 
 Performance-wise, list comprehensions generally have better performance over traditional loops and `map` and `filter`. The exception is if a built-in function is passed, such as `str`, `len`, or `max`, `map` will have better performance.
 
@@ -85,15 +85,16 @@ Additionally, comprehensions are not limited to lists, but can also be used with
 names = 'James John Emily Nina Josh'.split()
 scores = {name:0 for name in names}
 '''
->>> {'Emily': 0, 'James': 0, 'John': 0, 'Josh': 0, 'Nina': 0}
+>> {'Emily': 0, 'James': 0, 'John': 0, 'Josh': 0, 'Nina': 0}
 '''
 ```
 With a set, we can create, like a list, a collection of the odd square numbers of the numbers 1 through 10:  
 ```python
 squares = {x**2 for x in range(1,11) if x % 2 == 1}
 '''
->>> {1, 9, 25, 49, 81}
+>> {1, 9, 25, 49, 81}
 '''
+```
 ---
 
 ### Complete the following problems by editing the files below:
@@ -107,7 +108,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> There are 937 days between 01-02-2013 and 07-28-2015
 
 b.  
 ```
@@ -115,7 +116,7 @@ date_start = '12312013'
 date_stop = '05282015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> There are 513 days between 12312013 and 05282015
 
 c.  
 ```
@@ -123,7 +124,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'  
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+>> There are 7850 days between 15-Jan-1994 and 14-Jul-2015
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
