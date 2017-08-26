@@ -18,7 +18,12 @@ def donuts(count):
     >>> donuts(99)
     'Number of donuts: many'
     """
-    raise NotImplementedError
+    return 'Number of donuts: {}'.format(count if (count < 10) else 'many')
+
+print(donuts(4))
+print(donuts(9))
+print(donuts(10))
+print(donuts(99))
 
 
 def both_ends(s):
@@ -37,7 +42,14 @@ def both_ends(s):
     >>> both_ends('xyz')
     'xyyz'
     """
-    raise NotImplementedError
+    return (s[:2] + s[-2:]) if len(s) > 1 else ''
+
+print(both_ends('spring'))
+print(both_ends('Hello'))
+print(both_ends('a'))
+print(both_ends('xyz'))
+
+
 
 
 def fix_start(s):
@@ -56,7 +68,12 @@ def fix_start(s):
     >>> fix_start('donut')
     'donut'
     """
-    raise NotImplementedError
+    return s[0] + s[1:].replace(s[0],'*')
+
+print(fix_start('babble'))
+print(fix_start('aardvark'))
+print(fix_start('google'))
+print(fix_start('donut'))
 
 
 def mix_up(a, b):
@@ -74,8 +91,12 @@ def mix_up(a, b):
     >>> mix_up('pezzy', 'firm')
     'fizzy perm'
     """
-    raise NotImplementedError
+    return ' '.join([b[:2] + a[2:], a[:2] + b[2:]])
 
+print(mix_up('mix', 'pod'))
+print(mix_up('dog', 'dinner'))
+print(mix_up('gnash', 'sport'))
+print(mix_up('pezzy', 'firm'))
 
 def verbing(s):
     """
@@ -91,7 +112,15 @@ def verbing(s):
     >>> verbing('do')
     'do'
     """
-    raise NotImplementedError
+    if len(s) < 3:
+        return s
+    elif s[-3:] == 'ing':
+        return s + 'ly'
+    else:
+        return s + 'ing'
+print(verbing('hail'))
+print(verbing('swiming'))
+print(verbing('do'))
 
 
 def not_bad(s):
@@ -111,10 +140,22 @@ def not_bad(s):
     >>> not_bad("It's bad yet not")
     "It's bad yet not"
     """
-    raise NotImplementedError
+    try:
+        n = s.index('not')
+        b = s.index('bad')
+        if n < b:
+            return s[:n] + 'good' + s[b + 3:]
+        return s
+    except:
+        return s
+
+print(not_bad('This movie is not so bad'))
+print(not_bad('This dinner is not that bad!'))
+print(not_bad('This tea is not hot'))
+print(not_bad("It's bad yet not"))
 
 
-def front_back(a, b):
+def front_back(s1, s2):
     """
     Consider dividing a string into two halves. If the length is even,
     the front and back halves are the same length. If the length is
@@ -130,4 +171,10 @@ def front_back(a, b):
     >>> front_back('Kitten', 'Donut')
     'KitDontenut'
     """
-    raise NotImplementedError
+    len1, r1 = divmod(len(s1), 2)
+    len2, r2 = divmod(len(s2), 2)
+    return s1[:len1 + r1] + s2[:len2 + r2] + s1[len1 + r1:] + s2[len2 + r2:]
+
+print(front_back('abcd', 'xy'))
+print(front_back('abcde', 'xyz'))
+print(front_back('Kitten', 'Donut'))
