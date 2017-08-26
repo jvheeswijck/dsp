@@ -131,17 +131,17 @@ Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 ---
 
 ### Q6. Strings
-Edit the 7 functions in [q6_strings.py](python/q6_strings.py)
+Edit the 7 functions in [q6_strings.py](python/q6_strings.py)  
 *Completed*
 ---
 
 ### Q7. Lists
-Edit the 5 functions in [q7_lists.py](python/q7_lists.py)
+Edit the 5 functions in [q7_lists.py](python/q7_lists.py)  
 *Completed*
 ---
 
 ### Q8. Parsing
-Write a script as indicated (using the football data) in [q8_parsing.py](python/q8_parsing.py)
+Write a script as indicated (using the football data) in [q8_parsing.py](python/q8_parsing.py)  
 *Completed*
 
 
