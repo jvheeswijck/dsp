@@ -34,7 +34,7 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 #### Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
 
->> There are 4 unique email addresses. They are: 'mail.med.upenn.edu', 'email.chop.edu', 'cceb.med.upenn.edu', and 'upenn.edu'.
+>> There are 4 unique email address domains. They are: 'mail.med.upenn.edu', 'email.chop.edu', 'cceb.med.upenn.edu', and 'upenn.edu'.
 
 Place your code in this file: [advanced_python_regex.py](python/advanced_python_regex.py)
 
@@ -66,9 +66,12 @@ faculty_dict = { 'Ellenberg': [['Ph.D.', 'Professor', 'sellenbe@upenn.edu'], ['P
 ```
 Print the first 3 key and value pairs of the dictionary:
 
->> The first three key-value pairs are as follows: ('Bellamy', ['Sc.D.', 'Associate Professor of Biostatistics', 'bellamys@mail.med.upenn.edu'])
+>> The first three key-value pairs are as follows: 
+```
+('Bellamy', ['Sc.D.', 'Associate Professor of Biostatistics', 'bellamys@mail.med.upenn.edu'])
 ('Bilker', ['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu'])
-('Bryan', ['Ph.D.', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu'])  
+('Bryan', ['Ph.D.', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu'])
+```
 This however is not ideal as a dictionary as a last name may not uniquely identify a person, i.e. cases with faculty with the same last name.
 
 #### Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
@@ -80,19 +83,22 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 Print the first 3 key and value pairs of the dictionary:
 
 >> To addresss this, we create a composite key, or in this case, a tuple as a key, containing both the last and first name to unqiuely identify the faculty memeber in the dictionary.  
+```
 (('Scarlett L.', 'Bellamy'), ['Sc.D.', 'Associate Professor of Biostatistics', 'bellamys@mail.med.upenn.edu'])
 (('Warren B.', 'Bilker'), ['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu'])
 (('Matthew W', 'Bryan'), ['Ph.D.', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu'])
+```
 
 #### Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
->> (('Scarlett L.', 'Bellamy'), ['Sc.D.', 'Associate Professor of Biostatistics', 'bellamys@mail.med.upenn.edu'])
+```
+(('Scarlett L.', 'Bellamy'), ['Sc.D.', 'Associate Professor of Biostatistics', 'bellamys@mail.med.upenn.edu'])
 (('Warren B.', 'Bilker'), ['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu'])
 (('Matthew W', 'Bryan'), ['Ph.D.', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu'])
 (('Jinbo', 'Chen'), ['Ph.D.', 'Associate Professor of Biostatistics', 'jinboche@upenn.edu'])
 (('Susan S', 'Ellenberg'), ['Ph.D.', 'Professor of Biostatistics', 'sellenbe@upenn.edu'])
 (('Jonas H.', 'Ellenberg'), ['Ph.D.', 'Professor of Biostatistics', 'jellenbe@mail.med.upenn.edu'])
-
+```
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 
 --- 
