@@ -21,7 +21,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 `pwd` Print working directory  
 `mkdir [directory]` Create a directory  
-`rmdirv[directory]` Remove a directory  
+`rmdir [directory]` Remove a directory  
 `touch [file]` Creates files or modifies the accessed/modified data of files  
 `rm [file]` Removes a file  
 `mv [file]` Moves or renames a file  
