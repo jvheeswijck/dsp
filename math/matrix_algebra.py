@@ -47,7 +47,7 @@ print('')
 
 #Q3.3
 try:
-    print('C.T + 3D = ' + str(C.T - 3*D))
+    print('C.T + 3D = ' + str(C.T + 3*D))
 except:
     print('C.T + 3D = Undefined')
 print('')
