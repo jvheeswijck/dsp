@@ -30,3 +30,4 @@ The p-value for the t-test is  2.55059572705e-05
 Cohen's D is measured to be -0.088672363332
 ```
 We see from these tests that there is a significant difference between means, if we chose an alpha of 0.05. However, despite there being a significant difference, Cohen's D tells us that the effect is very small with a value of -0.089.
+Compared to Cohen's D of pregnancy length between the two groups, which was found to be 0.0288 in an earlier problem., we see that both are relatively small effects.
