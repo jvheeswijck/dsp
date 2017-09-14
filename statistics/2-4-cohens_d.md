@@ -22,7 +22,7 @@ print('The p-value for the t-test is ', stats.ttest_ind(a,b)[1])
 print("Cohen's D is measured to be", CohenEffectSize(a,b))
 ```
 The outputs are:
-```python
+```
 The mean weight of first babies is 7.201094430437772
 The mean weight of other babies is 7.325855614973262
 The p_value for the f-test of equal variances is [ 0.88622698]
