@@ -1,7 +1,7 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
-Using the variable `totalwgt_lb`, investigate whether first babies are lighter or heavier than others. 
-Compute Cohen’s effect size to quantify the difference between the groups.  How does it compare to the difference in pregnancy length?
+**Using the variable `totalwgt_lb`, investigate whether first babies are lighter or heavier than others. 
+Compute Cohen’s effect size to quantify the difference between the groups.  How does it compare to the difference in pregnancy length?**
 
 To investigate whether first babies are heavier or lighter than others we first examine the means of the two groups. We find the mean weight of first babies is 7.20 lbs while the mean of other babies is 7.33 lbs. It looks as though other babies may be heavier. To test this, we conduct a independant samples t-test and measure the effect size with Cohen's D. The following code is used on the data frames to perform these tests:
 ```python
