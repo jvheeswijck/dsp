@@ -9,9 +9,11 @@ randn = pd.DataFrame(np.random.random(1000), columns=['num'])
 randn.num.hist(bins=1000)
 ```
 ![](/img/pmf-sparse.png)
+
 We can see that because each outcome of the random variable has a low chance of occuring resulting in low counts, its difficult to tell whether the distribution is uniform. To address this, we can look at the CDF which deals with these values better.
 ```python
 randn.num.hist(cumulative=True, bins=1000)
 ```
 ![](/img/cdf.png)
+
 We can see that the CDF gives a better picture of the distribution when probabilities are low. In this case, we can see that the function random.random is indeed random.
