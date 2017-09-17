@@ -15,4 +15,4 @@ axs[0].set_title('Actual')
 axs[1].set_title('Biased')
 fig.tight_layout()
 ```
-![plots]()
+![plots](img/actualvsbiased.png)
