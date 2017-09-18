@@ -94,7 +94,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist statistics attempts to draw conclusions simply based on distributions and the associated probabilities through p-values, confidence intervals and hypothesis testing. Bayesian statistics differs in that it attempts to adjust these probabilities using prior knowledge or knowledge of other events to create a more accurate prediction. Taking an example used in a popular webcomic, XKCD, let us imagine there is a machine that states if the sun has gone supernova but it first rolls two dice, if it comes up 36, it lies. Assume it is night time and the machine is run, and returns the statement "Yes". A frequentist statistician would determine that the probability of the machine lying is 0.028, and with an alpha level of 0.05, would reject that the machine is lying and that the sun must've gone supernova. A bayesian statistician would take into account the probability of the sun going supernova or take into consideration that he is still alive resulting in the problem: Given that he is still alive, what is the probability that the machine is lying.
 
 ---
 
